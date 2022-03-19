@@ -13,7 +13,24 @@ function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Ally Sadzius</small>
+          <small>
+            This project was coded by{" "}
+            <a
+              href="https://jovial-keller-937df5.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ally Sadzius {""}
+            </a>{" "}
+            and is {""}
+            <a
+              href="https://github.com/AllySadz/last-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              open-sourced
+            </a>
+          </small>
         </footer>
       </div>
     </div>
