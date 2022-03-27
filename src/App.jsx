@@ -16,7 +16,7 @@ function App() {
           <small>
             This project was coded by{" "}
             <a
-              href="https://jovial-keller-937df5.netlify.app/"
+              href="https://sharp-roentgen-fef16d.netlify.app"
               target="_blank"
               rel="noreferrer"
             >
