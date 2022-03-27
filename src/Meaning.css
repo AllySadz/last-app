@@ -2,6 +2,8 @@
   font-size: 24px;
   font-weight: bold;
   line-height: 1.5;
+  color: #3d405b;
+  margin-bottom: -2px;
 }
 
 .meaning .example {
@@ -10,4 +12,21 @@
   color: #70757a;
   font-style: italic;
   margin-top: 10px;
+}
+.defItem {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 3px 1px rgb(0 0 0 / 32%);
+}
+
+.Meaning {
+  gap: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Meaning .definition {
+  font-weight: 600;
+  font-size: 15px;
 }
