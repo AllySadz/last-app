@@ -5,12 +5,14 @@ import "./Results.css";
 
 export default function Results(props) {
   if (props.results) {
+    console.log(props.results.phonetics);
     return (
       <div className="Results">
         <section>
           <h2>{props.results.word}</h2>
+
           {props.results.phonetics.map(function (phonetic, index) {
-            if (index < 1) {
+            if (index === props.results.phonetics.length - 1) {
               return (
                 <div key={index}>
                   <Phonetic phonetic={phonetic} />
